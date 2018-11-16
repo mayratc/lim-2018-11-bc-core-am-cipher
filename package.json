@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.19.1",
+    "eslint": "^5.9.0",
     "htmlhint": "^0.9.13",
     "mocha": "^5.1.1",
     "nyc": "^11.7.1",
