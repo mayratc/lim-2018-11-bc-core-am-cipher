@@ -1,0 +1,135 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+$p-color: #ffff00;
+$p-light:#ffff5a;
+$p-dark:#c7cc00;
+
+$s-color:#76ff03;
+$s-light:#b0ff57;
+$s-dark:#32cb00;
+
+$p-text:#000000;
+
+
+
+body{
+    margin: 0px;
+}
+.one-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+}
+
+.aside{
+    float: left;
+    height: 100%;
+    width: 20%;
+    & ul{
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background: $p-color;
+        & li{
+            list-style-type: none;
+            border-bottom: 1px solid $s-color;
+            & a{
+                display: block;
+                text-decoration: none;
+                font-size: 15pt;
+                display: block;
+                padding: 20px;
+                color:  darken( $s-color, 40% );
+                transition: color 1s, background 1s;
+                .f-right{
+                    float: right;
+                }
+                &:hover{
+                    color: darken( $s-color, 50% );
+                    background: $s-light;
+                }
+            }
+        }
+    }
+}
+
+.cont-web{
+    position: relative;
+    float: left;
+    background-image: url("../image/background-verde.jpg");
+    height: 100%;
+    width: 80%;
+    .frm1{
+        position: absolute;
+        float: left;
+        background: $s-light;
+        height: 440px;
+        width: 500px;
+        bottom: 50%;
+        right: 50%;
+        margin-bottom: -220px;
+        margin-right: -250px;
+        border-radius:15px;
+        font-size: 15pt;
+        header{
+            border-bottom: solid 1px black ;
+            margin-top: 8px;
+            text-align: center;
+        }
+        .cont{
+            margin-top: 20px;
+            text-align: center;
+            input, textarea{
+                background: $s-light;
+                padding: 5px;
+                font-size: 13pt;
+                transition: background 1s;
+                &.err{
+                    background: #fb8679;
+                }
+                &.efec_console{
+                    background: black;
+                    color: white;
+                }
+            }
+            .btn{
+                background: $p-light;
+                padding: 8px 25px;
+            }
+        }
+    }
+}
+.b-radio{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .cont-web{
+        .frm1{
+            width: 360px;
+            margin-right: -180px;
+        }
+    }
+
+    .aside ul li a {
+        text-align: center;
+        & span{
+            display: none;
+        }
+        & .f-right{
+            display: none;}
+    }
+    .aside {
+        width: 15%;
+    }
+    .cont-web{
+        width: 85%;
+    }
+
+
+}

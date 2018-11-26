@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    
+    <title>Document</title>
+</head>
+
+<body class="one-page">
+    <aside class="aside">
+        <ul>
+            <li>
+                <a href="#pant1" id="home">
+                    <i class=" icon-home3"></i> 
+                    <span>Home</span>
+                    <i class="icon-play3 f-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#pant2" id="encrypt">
+                    <i class="icon-lock"></i>
+                    <span>Encriptar</span> 
+                    <i class="icon-play3 f-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#pant3" id="decrypt">
+                    <i class="icon-unlocked"></i>
+                    <span>Desencriptar</span>
+                    <i class="icon-play3 f-right"></i>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- esto lo avanzaremos en un bloque-->
+    <div class="cont-web">
+
+        <div id="form1">
+            home
+        </div>
+
+        <form id="form" action="#" class="frm1">
+            <header id="cambiar">
+                <i class="icon-lock"></i>Encriptar
+            </header>
+            <main>
+                <section id="camb-la1" class="cont">
+                    <label for="i_keys">Ingrese una clave:</label>
+                    <br>
+                    <i class=" icon-key2"></i> <input class="b-radio" id="i_keys" type="number" min="1">
+                </section>
+                <section class="cont">
+                    <label id="camb_la2" for="ta_text">Escriba su mensaje:</label>
+                    <br>
+                    <textarea class="b-radio " id="ta_text" cols="30" rows="8" placeholder="Escribe un mensaje aquí"></textarea>
+                </section>
+                <section class="cont">
+                    <input id="btnVal" type="button" value="valor" class="b-radio btn" >
+                </section>
+            </main>
+        </form>
+    </div>
+
+
+
+
+    <script>
+        //recagar la pagina 
+        //setTimeout(function () { location.reload(); }, 1000);
+    </script>
+    <script type="text/javascript"src="js/cipher.js"></script>
+    <script type="text/javascript"src="js/validarfrm.js"></script>
+</body>
+
 </html>

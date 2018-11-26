@@ -1,0 +1,145 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 19, ../sass/screen.scss */
+body {
+  margin: 0px;
+}
+
+/* line 22, ../sass/screen.scss */
+.one-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+}
+
+/* line 29, ../sass/screen.scss */
+.aside {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+/* line 33, ../sass/screen.scss */
+.aside ul {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #ffff00;
+}
+/* line 38, ../sass/screen.scss */
+.aside ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #76ff03;
+}
+/* line 41, ../sass/screen.scss */
+.aside ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 15pt;
+  display: block;
+  padding: 20px;
+  color: #193600;
+  transition: color 1s, background 1s;
+}
+/* line 49, ../sass/screen.scss */
+.aside ul li a .f-right {
+  float: right;
+}
+/* line 52, ../sass/screen.scss */
+.aside ul li a:hover {
+  color: #010300;
+  background: #b0ff57;
+}
+
+/* line 61, ../sass/screen.scss */
+.cont-web {
+  position: relative;
+  float: left;
+  background-image: url("../image/background-verde.jpg");
+  height: 100%;
+  width: 80%;
+}
+/* line 67, ../sass/screen.scss */
+.cont-web .frm1 {
+  position: absolute;
+  float: left;
+  background: #b0ff57;
+  height: 440px;
+  width: 500px;
+  bottom: 50%;
+  right: 50%;
+  margin-bottom: -220px;
+  margin-right: -250px;
+  border-radius: 15px;
+  font-size: 15pt;
+}
+/* line 79, ../sass/screen.scss */
+.cont-web .frm1 header {
+  border-bottom: solid 1px black;
+  margin-top: 8px;
+  text-align: center;
+}
+/* line 84, ../sass/screen.scss */
+.cont-web .frm1 .cont {
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 87, ../sass/screen.scss */
+.cont-web .frm1 .cont input, .cont-web .frm1 .cont textarea {
+  background: #b0ff57;
+  padding: 5px;
+  font-size: 13pt;
+  transition: background 1s;
+}
+/* line 92, ../sass/screen.scss */
+.cont-web .frm1 .cont input.err, .cont-web .frm1 .cont textarea.err {
+  background: #fb8679;
+}
+/* line 95, ../sass/screen.scss */
+.cont-web .frm1 .cont input.efec_console, .cont-web .frm1 .cont textarea.efec_console {
+  background: black;
+  color: white;
+}
+/* line 100, ../sass/screen.scss */
+.cont-web .frm1 .cont .btn {
+  background: #ffff5a;
+  padding: 8px 25px;
+}
+
+/* line 107, ../sass/screen.scss */
+.b-radio {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 113, ../sass/screen.scss */
+  .cont-web .frm1 {
+    width: 360px;
+    margin-right: -180px;
+  }
+
+  /* line 119, ../sass/screen.scss */
+  .aside ul li a {
+    text-align: center;
+  }
+  /* line 121, ../sass/screen.scss */
+  .aside ul li a span {
+    display: none;
+  }
+  /* line 124, ../sass/screen.scss */
+  .aside ul li a .f-right {
+    display: none;
+  }
+
+  /* line 127, ../sass/screen.scss */
+  .aside {
+    width: 15%;
+  }
+
+  /* line 130, ../sass/screen.scss */
+  .cont-web {
+    width: 85%;
+  }
+}
