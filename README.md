@@ -1,4 +1,21 @@
-# Cifrado César
+# Mensaje en secreto
+## Definicion 
+Esta pagina web fue diseñada para usuarios en general, es una herramienta gratuita en el cual
+te permitira encriptar y descencriptar mensajes, por ello se creo de una manera sencilla y facil
+de manejar.
+
+El proposito de esta pagina web es que el usuario, pueda enviar un mensaje encriptado con una
+clave y el receptor de este mensaje pueda descencriptarla con la clave originaria, es una 
+parte divertida de mantener un mensaje en secreto ya que nadie mas podra saber que es lo que se oculta
+entre esa maraña de letras.
+
+El objetivo principal de este proyecto es que el usuario pueda tener esta herramienta como una
+forma de mantener en privacidad algun mensaje o dedicar algunos de ellos a alguien especial, ya sea 
+un  mensaje romantico, un secreto super privado, etc. 
+
+![image](readme-image/secreto.jpg)
+
+## Fases del proyecto
 Para iniciar con el proyecto utilizamos una metodología ágil llamada "Scrum", aquí planificamos
 y desarrollamos nueve tareas generales a realizar. Todos estos conceptos e ideas claras lo plasmamos
 en el papelografo, en el cual se dividian en cinco columnas.
