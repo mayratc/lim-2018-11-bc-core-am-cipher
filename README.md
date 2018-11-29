@@ -27,13 +27,7 @@ seleccionar y crear la interfaz para el usuario.
 En esta primera parte se mostrara la primera fase que tuvo el proyecto:
 
 ## Primer prototipo
-![inicio](readme-image/bienvenida.jpg "pantalla de inicio")
-
-![bienvenida](readme-image/saludo.jpg "pantalla de bienvenida")
-
-![funcion](readme-image/cifrar.jpg "pantalla del cifrado")
-
-![funcion](readme-image/descifrar.jpg "pantalla del cifrado")
+![prototipo](readme-image/final.jpg "primer prototipo")
 
 Como vemos en las imagenes, cada boton hacia la función de llevarte la siguiente sección, en esta parte aun no 
 tenia los estilos ya que decidi cambiar la estructura del proyecto.
