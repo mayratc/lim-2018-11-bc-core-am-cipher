@@ -14,7 +14,7 @@ comence a investigar y leer acerca de como cifrar y descifrar una letra atraves 
 Termine por completar la tarea del cifrado, lo testeaba a traves de consola. Para este segundo paso, opte
 por realizar la estructura html básica para el proyecto.
 
-![prototipo-html](readme-image/prototipado.jpeg "primer prototipo")
+![prototipo-html](readme-image/prototipo.jpg "primer prototipo")
 
 ## Segundo Sprint
 Para este segundo sprint lo primero que se hizo fue realizar la prueba de testing, el cual me tomo un par
@@ -27,11 +27,13 @@ seleccionar y crear la interfaz para el usuario.
 En esta primera parte se mostrara la primera fase que tuvo el proyecto:
 
 ## Primer prototipo
-![inicio](readme-image/inicio-cipher.jpeg "pantalla de inicio")
+![inicio](readme-image/bienvenida.jpg "pantalla de inicio")
 
-![bienvenida](readme-image/bienvenida-cipher.jpeg "pantalla de bienvenida")
+![bienvenida](readme-image/saludo.jpg "pantalla de bienvenida")
 
-![funcion](readme-image/funcion-cipher.jpeg "pantalla del cifrado")
+![funcion](readme-image/cifrar.jpg "pantalla del cifrado")
+
+![funcion](readme-image/descifrar.jpg "pantalla del cifrado")
 
 Como vemos en las imagenes, cada boton hacia la función de llevarte la siguiente sección, en esta parte aun no 
 tenia los estilos ya que decidi cambiar la estructura del proyecto.
