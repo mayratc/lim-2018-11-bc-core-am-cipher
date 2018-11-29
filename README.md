@@ -9,12 +9,12 @@ en el papelografo, en el cual se dividian en cinco columnas.
 Para este primer sprint empecé a "descuartizar al muerto", incie con la función del cifrado.Para esto 
 comence a investigar y leer acerca de como cifrar y descifrar una letra atraves del modelo cifrado Cesar.
 
-![image-cesar]()
+![image-cesar](readme-image/cifrado-cesar.png "cifrado Cesar")
 
 Termine por completar la tarea del cifrado, lo testeaba a traves de consola. Para este segundo paso, opte
 por realizar la estructura html básica para el proyecto.
 
-![prototipo-html]()
+![prototipo-html](readme-image/prototipado.jpeg "primer prototipo")
 
 ## Segundo Sprint
 Para este segundo sprint lo primero que se hizo fue realizar la prueba de testing, el cual me tomo un par
@@ -26,12 +26,12 @@ seleccionar y crear la interfaz para el usuario.
 
 En esta primera parte se mostrara la primera fase que tuvo el proyecto:
 
-### Primer prototipo
-![bienvenida]()
+## Primer prototipo
+![inicio](readme-image/inicio-cipher.jpeg "pantalla de inicio")
 
-![inicio]()
+![bienvenida](readme-image/bienvenida-cipher.jpeg "pantalla de bienvenida")
 
-![funcion]()
+![funcion](readme-image/funcion-cipher.jpeg "pantalla del cifrado")
 
 Como vemos en las imagenes, cada boton hacia la función de llevarte la siguiente sección, en esta parte aun no 
 tenia los estilos ya que decidi cambiar la estructura del proyecto.
