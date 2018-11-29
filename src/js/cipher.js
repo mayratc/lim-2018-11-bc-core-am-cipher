@@ -13,7 +13,6 @@ window.cipher = {
                 result += text.charAt(i);
             }
         }
-
         return result;
     },
     decode: (text, displace) => {
@@ -32,5 +31,14 @@ window.cipher = {
         }
 
         return result;
-    }
+    },
+
+
+    createCipherWithOffset: (displace) => {
+        const result = {
+          encode(string) {return cipher.encode(string, displace);},
+          decode(string) {return cipher.decode(string, displace);}
+        }
+        return result;
+      }
 };

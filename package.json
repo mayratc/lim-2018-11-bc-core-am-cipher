@@ -14,9 +14,23 @@
   "dependencies": {
     "chai": "^4.1.2",
     "eslint": "^5.9.0",
-    "htmlhint": "^0.9.13",
+    "htmlhint": "^0.10.1",
     "mocha": "^5.1.1",
-    "nyc": "^11.7.1",
-    "opener": "^1.4.3"
-  }
+    "opener": "^1.4.3",
+    "nyc": "^11.9.0"
+  },
+  "description": "Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayratc/lim-2018-11-bc-core-am-cipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mayratc/lim-2018-11-bc-core-am-cipher/issues"
+  },
+  "homepage": "https://github.com/mayratc/lim-2018-11-bc-core-am-cipher#readme"
 }

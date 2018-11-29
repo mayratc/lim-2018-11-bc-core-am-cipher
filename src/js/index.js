@@ -4,7 +4,7 @@ const b_encrypt = document.getElementById("encrypt");
 const b_decrypt = document.getElementById("decrypt");
 const btnval = document.getElementById("btnVal");
 //pantallas
-const p_home = document.getElementById("form1");
+const p_home = document.getElementById("frm_home");
 const p_pantalla = document.getElementById("form");
 //frm_inp1 frm
 const frm_inp1 = document.getElementById("i_keys");
@@ -44,7 +44,7 @@ function eje_cipher() {
             //desdencriptar mensaje usando cipher.js
             result_code = window.cipher.decode(text_area.value, parseInt(frm_inp1.value));
         } else {
-            console.log("Error en la funcion eje_cipher");
+           // console.log("Error en la funcion eje_cipher");
         }
 
         //esto quita los ccs err y deja el resto de css gracias al replace que rempla.
@@ -57,7 +57,7 @@ function eje_cipher() {
 
         //esto hace que se desaparesca despues de 5 segundos.
         setTimeout(function () {
-            text.className = text_area.className.replace(" efec_console", "");
+            text_area.className = text_area.className.replace(" efec_console", "");
         }, 5000);
     }//caso contrario que canbie el color de los inputs
     else {
@@ -101,7 +101,7 @@ function generar_frm() {
         document.getElementById("ta_text").placeholder = "Pegar el mensaje aquí";
     }
     else {
-        console.log("error funcion validar");
+        //console.log("error funcion validar");
     }
 }
 
