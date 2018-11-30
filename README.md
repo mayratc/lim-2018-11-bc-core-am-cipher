@@ -50,7 +50,7 @@ tenia los estilos ya que decidi cambiar la estructura del proyecto.
 
 En esta segunda parte se mostrara la segunda fase que tiene el proyecto:
 ## Segundo Prototipo
-![prototipo](readme-image/prototipo2.png"segundo prototipo")
+![prototipo](readme-image/prototipo2.png "segundo prototipo")
 
 Como vemos en las imagenes, en esta segunda fase se concluyo que los botones como anteriormente lo vimos,
 te llevaba a la siguente sección, entonces aquí opte por hacerlo mas fácil de manejar, ese proceso de volver
