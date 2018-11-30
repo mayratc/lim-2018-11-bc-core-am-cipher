@@ -43,17 +43,17 @@
     <div class="cont-web">
 
         <div id="frm_home" class="frmhome">
-            <div class="conten1" id="">
-                <h1>MENSAJE SECRETO</h1>
+            <div class="conten1" >
+                <h1>"MENSAJE SECRETO"</h1>
                 <p>Bienvenido(a), use nuestra herramienta gratuita para cifrar mensajes</p>
             </div>
             <div class="conten2">
-                <div class="card1" >
+                <div class="card1" id="de_btn">
                         <p><i class="icon-lock"></i></p>
                         <h2>Encode</h2>
                         <p>Aquì podràs encriptar tus mensajes</p>
                 </div>
-                <div class="card2">
+                <div class="card2" id="dd_btn">
                     <p><i class=" icon-unlocked"></i></p>
                     <h2>Decode</h2>
                     <p>Aqui podras decifrar el mensaje</p>
@@ -62,7 +62,7 @@
         </div>
 
         <form id="form" action="#" class="frm1">
-            <header id="cambiar">
+            <header id="rep_header">
                 <i class="icon-lock"></i>Encriptar
             </header>
             <main>
@@ -72,12 +72,12 @@
                     <i class=" icon-key2"></i> <input class="b-radio" id="i_keys" type="number" min="1">
                 </section>
                 <section class="cont">
-                    <label id="camb_la2" for="ta_text">Escriba su mensaje:</label>
+                    <label id="rep_label" for="ta_text">Escriba su mensaje:</label>
                     <br>
-                    <textarea class="b-radio " id="ta_text" cols="30" rows="8" placeholder="Escribe un mensaje aquí"></textarea>
+                    <textarea class="b-radio " id="frm_ta" cols="30" rows="8" placeholder="Escribe un mensaje aquí"></textarea>
                 </section>
                 <section class="cont">
-                    <input id="btnVal" type="button" value="click" class="b-radio btn" >
+                    <input id="b_click" type="button" value="click" class="b-radio btn" >
                 </section>
             </main>
         </form>
