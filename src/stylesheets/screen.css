@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Cantarell");
-@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
 /* line 22, ../sass/screen.scss */
 body {
   margin: 0px;
@@ -41,121 +41,118 @@ body {
   display: block;
   text-decoration: none;
   font-size: 15pt;
-  display: block;
   padding: 20px;
   color: #a99800;
   transition: color 1s, background 1s;
 }
-/* line 53, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .aside ul li a .f-right {
   float: right;
 }
-/* line 56, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .aside ul li a:hover {
   color: #766a00;
   background: #ffffa8;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .cont-web {
   position: relative;
   float: right;
-  background-image: url("../image/background-frm.jpg");
+  background-image: url("../image/background-home.png");
   height: 100%;
   width: 80%;
 }
-/* line 71, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .cont-web .frmhome {
   height: 100%;
   width: 100%;
   position: absolute;
 }
-/* line 75, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .cont-web .frmhome .conten1 {
   height: 350px;
-  background-image: url("../image/background-home.png");
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #250448;
+  background-size: 100% 100%;
 }
-/* line 81, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .cont-web .frmhome .conten1 h1 {
   margin: 0px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Fredoka One', cursive;
   text-align: center;
-  color: aliceblue;
+  color: white;
   padding: 45px;
+  font-size: 50pt;
 }
-/* line 88, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .cont-web .frmhome .conten1 p {
   margin-top: 15px;
   text-align: center;
   color: white;
-  background: rgba(88, 180, 233, 0.9);
   font-size: 17pt;
   width: 400px;
   margin: auto;
   padding: 25px;
   border-radius: 25px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .cont-web .frmhome .conten2 {
   position: relative;
   height: 300px;
-  background: #f0f2f3;
+  background: #250448;
 }
-/* line 106, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 {
   position: absolute;
   height: 230px;
   width: 220px;
-  background: #ce2a8f;
+  background: #c9047d;
   margin: 30px;
   right: 50%;
+  border: 4px dashed white;
 }
-/* line 113, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 p {
-  background: chocolate;
   text-align: center;
 }
-/* line 116, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 p i {
   font-size: 40pt;
 }
-/* line 120, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 h2 {
   text-align: center;
   font-size: 20pt;
 }
-/* line 126, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 {
   position: absolute;
   height: 230px;
   width: 220px;
-  background: #2fd4f1;
+  background: #13d3da;
   margin: 30px;
   left: 50%;
+  border: 4px dashed white;
 }
-/* line 133, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 p {
-  background: #cabf45;
   text-align: center;
 }
-/* line 137, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 i {
   font-size: 40pt;
   text-align: center;
 }
-/* line 141, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 h2 {
   text-align: center;
   font-size: 20pt;
 }
-/* line 150, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .cont-web .frm1 {
   position: absolute;
   float: left;
-  background: #ffffa8;
+  background: orange;
   height: 440px;
   width: 500px;
   bottom: 50%;
@@ -165,71 +162,77 @@ body {
   border-radius: 15px;
   font-size: 15pt;
 }
-/* line 162, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .cont-web .frm1 header {
   border-bottom: solid 1px black;
   margin-top: 8px;
   text-align: center;
 }
-/* line 167, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .cont-web .frm1 .cont {
   margin-top: 20px;
   text-align: center;
 }
-/* line 170, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .cont-web .frm1 .cont input, .cont-web .frm1 .cont textarea {
-  background: #ffffa8;
+  background: white;
   padding: 5px;
   font-size: 13pt;
   transition: background 1s;
 }
-/* line 175, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .cont-web .frm1 .cont input.err, .cont-web .frm1 .cont textarea.err {
   background: #fb8679;
 }
-/* line 178, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .cont-web .frm1 .cont input.efec_console, .cont-web .frm1 .cont textarea.efec_console {
   background: black;
   color: white;
 }
-/* line 183, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .cont-web .frm1 .cont .btn {
-  background: #8bf6ff;
+  background: #04c2c9;
   padding: 8px 25px;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .b-radio {
   border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 197, ../sass/screen.scss */
+  /* line 194, ../sass/screen.scss */
   .cont-web .frm1 {
     width: 360px;
     margin-right: -180px;
   }
 
-  /* line 203, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   .aside ul li a {
     text-align: center;
   }
-  /* line 205, ../sass/screen.scss */
+  /* line 201, ../sass/screen.scss */
   .aside ul li a span {
     display: none;
   }
-  /* line 208, ../sass/screen.scss */
+  /* line 204, ../sass/screen.scss */
   .aside ul li a .f-right {
     display: none;
   }
 
-  /* line 211, ../sass/screen.scss */
+  /* line 208, ../sass/screen.scss */
   .aside {
     width: 15%;
   }
 
-  /* line 214, ../sass/screen.scss */
+  /* line 211, ../sass/screen.scss */
   .cont-web {
     width: 85%;
+  }
+
+  /* line 215, ../sass/screen.scss */
+  .cont-web .frmhome .conten2 .card1, .cont-web .frmhome .conten2 .card2 {
+    width: 150px;
+    margin: 30px 10px;
   }
 }

@@ -13,8 +13,6 @@ El objetivo principal de este proyecto es que el usuario pueda tener esta herram
 forma de mantener en privacidad algun mensaje o dedicar algunos de ellos a alguien especial, ya sea 
 un  mensaje romantico, un secreto super privado, etc. 
 
-![image](readme-image/secreto.jpg)
-
 ## Fases del proyecto
 Para iniciar con el proyecto utilizamos una metodología ágil llamada "Scrum", aquí planificamos
 y desarrollamos nueve tareas generales a realizar. Todos estos conceptos e ideas claras lo plasmamos
@@ -23,13 +21,14 @@ en el papelografo, en el cual se dividian en cinco columnas.
 ![papelografo](readme-image/sprint-papelografo.jpeg "sprint-papelote")
 
 ## Primer Sprint 
-Para este primer sprint empecé a "descuartizar al muerto", incie con la función del cifrado.Para esto 
-comence a investigar y leer acerca de como cifrar y descifrar una letra atraves del modelo cifrado Cesar.
+Para este primer sprint empecé a "descuartizar al muerto", incie con la función del cifrado. Para esto 
+comence a investigar y leer acerca de como cifrar y descifrar una letra a traves del modelo cifrado Cesar.
 
 ![image-cesar](readme-image/cifrado-cesar.png "cifrado Cesar")
 
-Termine por completar la tarea del cifrado, lo testeaba a traves de consola. Para este segundo paso, opte
-por realizar la estructura html básica para el proyecto.
+Termine por completar la tarea del cifrado, se testeaba a traves de consola. Para este segundo paso, opte
+por realizar la estructura html básica para el proyecto. 
+Aqui un ejemplo de como se observaria:
 
 ![prototipo-html](readme-image/prototipo.jpg "primer prototipo")
 
@@ -51,13 +50,14 @@ tenia los estilos ya que decidi cambiar la estructura del proyecto.
 
 En esta segunda parte se mostrara la segunda fase que tiene el proyecto:
 ## Segundo Prototipo
-![i-home]()
-
-![i-cifrar]()
-
-![i-descifrar]()
+![prototipo](readme-image/prototipo2.png"segundo prototipo")
 
 como vemos en las imagenes, en esta segunda fase se concluyo que los botones como anteriormente lo vimos,
-te llevaba a la siguente sección, entonces aquí opte por hacerlo mas fácil de manejar ese proceso de volver
+te llevaba a la siguente sección, entonces aquí opte por hacerlo mas fácil de manejar, ese proceso de volver
 y copiar el texto para el descifrado. Cree una seccion de la pagina para que siempre permanezca y al momento
-de querer ir a una de estas tres opciones se le facilite.
+de querer volver se podra escoger una de estas tres opciones.
+
+Finalmente se hizo pruebas para serciorar de que la pagina sea facil de comprender y manejar, con mis 
+familiares y compañeras de laboratoria. 
+
+### link del proyecto

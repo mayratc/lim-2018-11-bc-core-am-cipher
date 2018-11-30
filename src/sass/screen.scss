@@ -5,7 +5,7 @@
  
 //@import "compass/reset";
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
 $p-color: #4fc3f7;
 $p-light:#8bf6ff;
@@ -46,7 +46,6 @@ body{
                 display: block;
                 text-decoration: none;
                 font-size: 15pt;
-                display: block;
                 padding: 20px;
                 color:  darken( $s-color, 40% );
                 transition: color 1s, background 1s;
@@ -65,7 +64,7 @@ body{
 .cont-web{
     position: relative;
     float: right;
-    background-image: url("../image/background-frm.jpg");
+    background-image: url("../image/background-home.png");
     height: 100%;
     width: 80%;
     .frmhome{
@@ -74,22 +73,20 @@ body{
         position: absolute;
         .conten1{
             height: 350px;
-            background-image: url("../image/background-home.png");
-            background-size: 100% auto;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: #250448;
+            background-size: 100% 100%;
             h1{
                 margin: 0px;
-                font-family: 'Orbitron', sans-serif;
+                font-family: 'Fredoka One', cursive;
                 text-align: center;
-                color: aliceblue;
+                color: white;
                 padding: 45px;
+                font-size: 50pt;
             }
             p{  
                 margin-top: 15px;
                 text-align: center;
                 color: white;
-                background: rgba(88, 180, 233, 0.9) ;
                 font-size: 17pt;
                 width: 400px;
                 margin:auto;
@@ -101,18 +98,18 @@ body{
         .conten2{
             position: relative;
             height: 300px;
-            background: #f0f2f3;
-
+            background: #250448;
             .card1{
                 position: absolute;
                 height: 230px;
                 width: 220px;
-                background: #ce2a8f;
+                background: #c9047d;
                 margin: 30px;
                 right: 50%;
+                border: 4px dashed white;
                 p{
-                    background: chocolate;
                     text-align: center;
+                    
                     i{
                         font-size: 40pt;
                     }
@@ -127,11 +124,11 @@ body{
                  position: absolute;
                  height: 230px;
                  width: 220px;
-                 background: #2fd4f1;
+                 background: #13d3da;
                  margin: 30px;
                  left: 50%;
+                 border: 4px dashed white;
                 p{
-                    background: #cabf45;
                     text-align: center;
                 }   
                 i{
@@ -150,7 +147,7 @@ body{
     .frm1{
         position: absolute;
         float: left;
-        background: $s-light;
+        background: orange;
         height: 440px;
         width: 500px;
         bottom: 50%;
@@ -168,7 +165,7 @@ body{
             margin-top: 20px;
             text-align: center;
             input, textarea{
-                background: $s-light;
+                background: white;
                 padding: 5px;
                 font-size: 13pt;
                 transition: background 1s;
@@ -181,7 +178,7 @@ body{
                 }
             }
             .btn{
-                background: $p-light;
+                background:#04c2c9;
                 padding: 8px 25px;
             }
             
@@ -199,19 +196,25 @@ body{
             margin-right: -180px;
         }
     }
-
     .aside ul li a {
         text-align: center;
         & span{
             display: none;
         }
         & .f-right{
-            display: none;}
+            display: none;
+        }
     }
     .aside {
         width: 15%;
     }
     .cont-web{
         width: 85%;
+    }
+    .cont-web .frmhome .conten2{
+        .card1, .card2{
+            width:150px;
+            margin: 30px 10px;
+        }
     }
 }

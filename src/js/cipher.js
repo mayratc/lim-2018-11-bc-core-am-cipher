@@ -10,7 +10,7 @@ window.cipher = {
             } else if (ascii >= 97 && ascii <= 122) {
                 result += String.fromCharCode((ascii - 97 + displace) % 26 + 97);
             } else {
-                result += text.charAt(i);
+                result += String.fromCharCode(ascii);
             }
         }
         return result;
@@ -26,13 +26,11 @@ window.cipher = {
             } else if (ascii >= 97 && ascii <= 122) {
                 result += String.fromCharCode((ascii - 97 + newDisplace) % 26 + 97);
             } else {
-                result += text.charAt(i);
+                result += String.fromCharCode(ascii);
             }
         }
-
         return result;
     },
-
 
     createCipherWithOffset: (displace) => {
         const result = {
