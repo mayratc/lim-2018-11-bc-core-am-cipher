@@ -59,5 +59,3 @@ de querer volver se podra escoger una de estas tres opciones.
 
 Finalmente se hizo pruebas para serciorar de que la pagina sea facil de comprender y manejar, con mis 
 familiares y compañeras de laboratoria. 
-
-### link del proyecto
