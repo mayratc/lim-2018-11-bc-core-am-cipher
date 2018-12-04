@@ -6,18 +6,7 @@
 //@import "compass/reset";
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-
-$p-color: #4fc3f7;
-$p-light:#8bf6ff;
-$p-dark:#0093c4;
-
-$s-color:#fff176;
-$s-light:#ffffa8;
-$s-dark:#cabf45;
-
-$p-text:#000000;
-
-
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 body{
     margin: 0px;
@@ -38,23 +27,23 @@ body{
         height: 100%;
         padding: 0px;
         margin: 0px;
-        background: $p-text;
+        background: black;
         & li{
             list-style-type: none;
-            border-bottom: 1px solid $s-dark;
+            border-bottom: 1px solid #cabf45;
             & a{
                 display: block;
                 text-decoration: none;
                 font-size: 15pt;
                 padding: 20px;
-                color:  darken( $s-color, 40% );
+                color:  darken( #fff176, 40% );
                 transition: color 1s, background 1s;
-                .f-right{
+                & .f-right{
                     float: right;
                 }
                 &:hover{
-                    color: darken( $s-color, 50% );
-                    background: $s-light;
+                    color: darken( #fff176, 50% );
+                    background: #ffffa8;
                 }
             }
         }
@@ -67,15 +56,15 @@ body{
     background-image: url("../image/background-home.png");
     height: 100%;
     width: 80%;
-    .frmhome{
+    & .frmhome{
         height: 100%; 
         width: 100%;
         position: absolute;
-        .conten1{
+       & .conten1{
             height: 350px;
             background: #250448;
             background-size: 100% 100%;
-            h1{
+            & h1{
                 margin: 0px;
                 font-family: 'Fredoka One', cursive;
                 text-align: center;
@@ -83,7 +72,7 @@ body{
                 padding: 45px;
                 font-size: 50pt;
             }
-            p{  
+            & p{  
                 margin-top: 15px;
                 text-align: center;
                 color: white;
@@ -92,14 +81,16 @@ body{
                 margin:auto;
                 padding: 25px;
                 border-radius:25px;
+                font-family: 'Cabin', sans-serif;
+                font-size: 20pt;
                 
             }
         }
-        .conten2{
+        & .conten2{
             position: relative;
             height: 300px;
             background: #250448;
-            .card1{
+            &  .card1{
                 position: absolute;
                 height: 230px;
                 width: 220px;
@@ -107,14 +98,14 @@ body{
                 margin: 30px;
                 right: 50%;
                 border: 4px dashed white;
-                p{
+                & p{
                     text-align: center;
                     
-                    i{
+                    & i{
                         font-size: 40pt;
                     }
                 }
-                h2{
+                & h2{
                     text-align: center;
                     font-size: 20pt;
                 }
@@ -128,14 +119,14 @@ body{
                  margin: 30px;
                  left: 50%;
                  border: 4px dashed white;
-                p{
+                & p{
                     text-align: center;
                 }   
-                i{
+                & i{
                     font-size: 40pt;
                     text-align: center;
                 }   
-                h2{
+                & h2{
                     text-align: center;
                     font-size: 20pt;
                 }
@@ -189,7 +180,7 @@ body{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1000px){
     .cont-web{
         .frm1{
             width: 360px;
@@ -211,10 +202,40 @@ body{
     .cont-web{
         width: 85%;
     }
+    .cont-web .frmhome {
+        & .conten2{
+            & .card1, & .card2{
+                width:160px;
+                margin: 30px 10px;
+            }
+        }
+        & .conten1 p{
+            padding: 0px;
+            
+        }
+    }
+
+}
+
+@media  screen and  (max-width:576px) {
+    .cont-web .frmhome .conten1{
+        height: 340px;
+        & h1{
+            padding: 30px;
+            font-size: 45pt;
+        }
+        & p{
+            padding: 10px;
+            font-size: 15pt;
+            width: 90%;
+        }
+
+    }
     .cont-web .frmhome .conten2{
-        .card1, .card2{
-            width:150px;
-            margin: 30px 10px;
+        height: 300px;
+        & .card1, & .card2{
+            height: 210px;
         }
     }
 }
+

@@ -8,7 +8,7 @@ const b_decode = document.getElementById("dd_btn");
 //pantallas
 const p_home = document.getElementById("frm_home");
 const frm_screen = document.getElementById("form");
-//frm_inp1 frm
+//el input y text area del formulario cifrar y descifrar
 const frm_inp1 = document.getElementById("i_keys");
 const frm_ta = document.getElementById("frm_ta");
 //solo se ejecuta una vez al iniciar el navedor
@@ -34,16 +34,16 @@ function eje_cipher() {
     //condicion si el tamño de caractes es mayor a 0 si es mayor que se envien a codificar
     if (frm_inp1.value.length > 0 && frm_ta.value.length > 0) {
 
-        let result_code="";
+        let result="";
         //este if sirve para saber si debemos encriptar o desemcriptar
         if (frm == "encrypt") {
 
             //encriptar mensaje usando cipher.js
-            result_code = window.cipher.encode(frm_ta.value, parseInt(frm_inp1.value));
+            result = window.cipher.encode(parseInt(frm_inp1.value),frm_ta.value);
         } else if (frm == "decrypt") {
 
             //desdencriptar mensaje usando cipher.js
-            result_code = window.cipher.decode(frm_ta.value, parseInt(frm_inp1.value));
+            result = window.cipher.decode(parseInt(frm_inp1.value),frm_ta.value);
         } else {
            // console.log("Error en la funcion eje_cipher");
         }
@@ -53,7 +53,7 @@ function eje_cipher() {
         frm_ta.className = frm_ta.className.replace(" err", "");
 
         //esto toma el valor de Texto que nos a sido retornado.
-        frm_ta.value = result_code;
+        frm_ta.value = result;
         frm_ta.className = " efec_console";
 
         //esto hace que se desaparesca despues de 5 segundos.
