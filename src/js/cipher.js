@@ -1,5 +1,5 @@
 window.cipher = {
-    encode: (text, displace) => {
+    encode:  (displace,text) => {
         
         let result = "";
 
@@ -15,7 +15,7 @@ window.cipher = {
         }
         return result;
     },
-    decode: (text, displace) => {
+    decode: (displace,text) => {
         let result = "";
         for (let i = 0; i < text.length; i++) {
             let ascii = text.charCodeAt(i);
@@ -34,8 +34,8 @@ window.cipher = {
 
     createCipherWithOffset: (displace) => {
         const result = {
-          encode(string) {return cipher.encode(string, displace);},
-          decode(string) {return cipher.decode(string, displace);}
+          encode(string) {return cipher.encode(displace,string);},
+          decode(string) {return cipher.decode(displace,string);}
         }
         return result;
       }

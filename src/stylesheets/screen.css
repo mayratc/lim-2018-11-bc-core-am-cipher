@@ -4,12 +4,13 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Cantarell");
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One");
-/* line 22, ../sass/screen.scss */
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+/* line 11, ../sass/screen.scss */
 body {
   margin: 0px;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .one-page {
   position: absolute;
   height: 100%;
@@ -17,26 +18,26 @@ body {
   min-height: 500px;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .aside {
   position: fixed;
   float: left;
   height: 100%;
   width: 20%;
 }
-/* line 37, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .aside ul {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background: #000000;
+  background: black;
 }
-/* line 42, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .aside ul li {
   list-style-type: none;
   border-bottom: 1px solid #cabf45;
 }
-/* line 45, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .aside ul li a {
   display: block;
   text-decoration: none;
@@ -45,17 +46,17 @@ body {
   color: #a99800;
   transition: color 1s, background 1s;
 }
-/* line 52, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .aside ul li a .f-right {
   float: right;
 }
-/* line 55, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .aside ul li a:hover {
   color: #766a00;
   background: #ffffa8;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .cont-web {
   position: relative;
   float: right;
@@ -63,19 +64,19 @@ body {
   height: 100%;
   width: 80%;
 }
-/* line 70, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .cont-web .frmhome {
   height: 100%;
   width: 100%;
   position: absolute;
 }
-/* line 74, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .cont-web .frmhome .conten1 {
   height: 350px;
   background: #250448;
   background-size: 100% 100%;
 }
-/* line 78, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .cont-web .frmhome .conten1 h1 {
   margin: 0px;
   font-family: 'Fredoka One', cursive;
@@ -84,7 +85,7 @@ body {
   padding: 45px;
   font-size: 50pt;
 }
-/* line 86, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .cont-web .frmhome .conten1 p {
   margin-top: 15px;
   text-align: center;
@@ -94,14 +95,16 @@ body {
   margin: auto;
   padding: 25px;
   border-radius: 25px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20pt;
 }
-/* line 98, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .cont-web .frmhome .conten2 {
   position: relative;
   height: 300px;
   background: #250448;
 }
-/* line 102, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 {
   position: absolute;
   height: 230px;
@@ -111,20 +114,20 @@ body {
   right: 50%;
   border: 4px dashed white;
 }
-/* line 110, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 p {
   text-align: center;
 }
-/* line 113, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 p i {
   font-size: 40pt;
 }
-/* line 117, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card1 h2 {
   text-align: center;
   font-size: 20pt;
 }
-/* line 123, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 {
   position: absolute;
   height: 230px;
@@ -134,21 +137,21 @@ body {
   left: 50%;
   border: 4px dashed white;
 }
-/* line 131, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 p {
   text-align: center;
 }
-/* line 134, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 i {
   font-size: 40pt;
   text-align: center;
 }
-/* line 138, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .cont-web .frmhome .conten2 .card2 h2 {
   text-align: center;
   font-size: 20pt;
 }
-/* line 147, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .cont-web .frm1 {
   position: absolute;
   float: left;
@@ -162,77 +165,107 @@ body {
   border-radius: 15px;
   font-size: 15pt;
 }
-/* line 159, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .cont-web .frm1 header {
   border-bottom: solid 1px black;
   margin-top: 8px;
   text-align: center;
 }
-/* line 164, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .cont-web .frm1 .cont {
   margin-top: 20px;
   text-align: center;
 }
-/* line 167, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .cont-web .frm1 .cont input, .cont-web .frm1 .cont textarea {
   background: white;
   padding: 5px;
   font-size: 13pt;
   transition: background 1s;
 }
-/* line 172, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .cont-web .frm1 .cont input.err, .cont-web .frm1 .cont textarea.err {
   background: #fb8679;
 }
-/* line 175, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .cont-web .frm1 .cont input.efec_console, .cont-web .frm1 .cont textarea.efec_console {
   background: black;
   color: white;
 }
-/* line 180, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .cont-web .frm1 .cont .btn {
   background: #04c2c9;
   padding: 8px 25px;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .b-radio {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
-  /* line 194, ../sass/screen.scss */
+@media screen and (max-width: 1000px) {
+  /* line 185, ../sass/screen.scss */
   .cont-web .frm1 {
     width: 360px;
     margin-right: -180px;
   }
 
-  /* line 199, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
   .aside ul li a {
     text-align: center;
   }
-  /* line 201, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   .aside ul li a span {
     display: none;
   }
-  /* line 204, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   .aside ul li a .f-right {
     display: none;
   }
 
-  /* line 208, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   .aside {
     width: 15%;
   }
 
-  /* line 211, ../sass/screen.scss */
+  /* line 202, ../sass/screen.scss */
   .cont-web {
     width: 85%;
   }
 
-  /* line 215, ../sass/screen.scss */
+  /* line 207, ../sass/screen.scss */
   .cont-web .frmhome .conten2 .card1, .cont-web .frmhome .conten2 .card2 {
-    width: 150px;
+    width: 160px;
     margin: 30px 10px;
+  }
+  /* line 212, ../sass/screen.scss */
+  .cont-web .frmhome .conten1 p {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* line 221, ../sass/screen.scss */
+  .cont-web .frmhome .conten1 {
+    height: 340px;
+  }
+  /* line 223, ../sass/screen.scss */
+  .cont-web .frmhome .conten1 h1 {
+    padding: 30px;
+    font-size: 45pt;
+  }
+  /* line 227, ../sass/screen.scss */
+  .cont-web .frmhome .conten1 p {
+    padding: 10px;
+    font-size: 15pt;
+    width: 90%;
+  }
+
+  /* line 234, ../sass/screen.scss */
+  .cont-web .frmhome .conten2 {
+    height: 300px;
+  }
+  /* line 236, ../sass/screen.scss */
+  .cont-web .frmhome .conten2 .card1, .cont-web .frmhome .conten2 .card2 {
+    height: 210px;
   }
 }
